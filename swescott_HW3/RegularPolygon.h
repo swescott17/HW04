@@ -22,6 +22,10 @@ public:
 	double gety(); //return y
 	double getPerimeter(); //n*length
 	double getArea(); //equation given in book
+	void setsides(int s); //sets number of sides
+	void setlength(double l); //sets the side length
+	void setx(double x); //sets the x-coordinate
+	void sety(double y); //sets the y-coordinate
 };
 
 #endif

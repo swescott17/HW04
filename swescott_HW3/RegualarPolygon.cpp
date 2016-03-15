@@ -49,3 +49,19 @@ double RegularPolygon::getArea() //returns the area of a polygon
 {
 	return (n * pow(side, 2)) / (4 * tan(3.14159 / n));
 }
+void RegularPolygon::setsides(int s) //sets the number of sides
+{
+	n = s;
+}
+void RegularPolygon::setlength(double l) //sets the side length
+{
+	double sides = l;
+}
+void RegularPolygon::setx(double w) //sets the x-coordinate
+{
+	x = w;
+}
+void RegularPolygon::sety(double z) //sets the y-coordinate
+{
+	y = z;
+}
