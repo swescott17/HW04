@@ -8,14 +8,16 @@ class stackOfString
 {
 private:
 	int size;
-	int element[100];
+	char element[100];
 public: //follows the example in 10.9 create a way to make it pass characters through
 	stackOfString();
-	bool isEmpty() const;
-	int getSize() const;
+	bool palindrome(const string& s); //the validity of a palindrome
+	bool isEmpty() const; //checks if string is empty
+	int getSize() const; //returns size
 	int peek() const;
-	int pop();
-	void push(int value);
+	char pop(); //returns what was put in backwards
+	void push(char c); //pushes the next character in string
+	char top(); 
 	
 };
 
