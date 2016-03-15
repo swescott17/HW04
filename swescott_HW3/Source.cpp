@@ -18,11 +18,13 @@ int main()
 
 	//EX3_02
 	//See RegularPolygon.h and RegularPolygon.cpp for more information
+	RegularPolygon k;
 	RegularPolygon l(6, 4);
 	RegularPolygon k(10, 4, 5.6, 7.8);
 
-	cout << "The first polygon has a perimeter of " << l.getPerimeter() << " and an area of " << l.getArea() << endl;
-	cout << "The second polygon has a perimeter of " << k.getPerimeter() << " and an area of " << k.getArea() << endl;
+	cout << "The first polygon has a perimeter of " << k.getPerimeter() << " and an area of " << k.getArea() << endl;
+	cout << "The second polygon has a perimeter of " << l.getPerimeter() << " and an area of " << l.getArea() << endl;
+	cout << "The third polygon has a perimeter of " << k.getPerimeter() << " and an area of " << k.getArea() << endl;
 	
 	return 0;
 }
