@@ -21,9 +21,15 @@
     <ClCompile Include="stackofstring.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RegualarPolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Thatdothfile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegularPolygon.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

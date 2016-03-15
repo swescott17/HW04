@@ -142,10 +142,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="RegualarPolygon.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="stackofstring.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="RegularPolygon.h" />
     <ClInclude Include="Thatdothfile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
